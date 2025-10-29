@@ -51,7 +51,7 @@ const quizSubjects = [
 
     {
         title: '📜 Polity Quizzes',
-        color: 'yellow',
+        color: '#FFC300',
         quizzes: []
     },
 
@@ -90,4 +90,5 @@ const quizSubjects = [
         color: 'green',
         quizzes: []
     }
+
 ];
