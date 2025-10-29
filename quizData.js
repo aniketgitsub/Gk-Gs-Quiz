@@ -2,6 +2,18 @@
 
 const quizSubjects = [
 
+    // ✨ यह नया विषय जोड़ा गया है और अब सबसे पहले है: Weekly Test Quizzes
+    {
+        title: '🗓️ Weekly Test Quizzes',
+        color: '#E67E22', // एक अलग रंग (Orange/Carrot)
+        quizzes: [
+            // आप यहाँ Weekly Tests जोड़ सकते हैं, उदाहरण के लिए:
+             { name: 'Weekly Test 1 - Geography', link: 'quiz_files/Weekly/week_1_geo.html' },
+             { name: 'Weekly Test 2 - Geography', link: 'quiz_files/Weekly/week_2_geo.html' },
+            { name: 'Weekly Test 3 - Geography', link: 'quiz_files/Weekly/week_3_geo.html' }
+        ]
+    },
+    
     {
         title: '🌍 Geography Quizzes',
         color: 'violet',
@@ -90,5 +102,4 @@ const quizSubjects = [
         color: 'green',
         quizzes: []
     }
-
 ];
